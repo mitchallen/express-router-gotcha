@@ -23,10 +23,7 @@ app.use('/v1',genRouter('delta')); // alpha, beta, gamma, delta
 app.use('/v2', genRouter('epislon')); // alpha, beta, epsilon
 ```
 
-```sh
-------------------------- 
-... calling middleware: alpha 
-... calling middleware: beta 
+```sh 
 ------------------------- 
 ... calling middleware: alpha 
 ... calling endpoint: alpha 
