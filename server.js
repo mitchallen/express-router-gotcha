@@ -39,7 +39,7 @@ app.use('/v1', genRouter('gamma')); // alpha, beta, gamma mw
 app.use('/v1',genRouter('delta')); // alpha, beta, gamma, delta
 // router has unique parent 
 // GET /v2/epsilon
-app.use('/v2', genRouter('epsolon')); // alpha, beta, epsilon
+app.use('/v2', genRouter('epsilon')); // alpha, beta, epsilon
 
 
 const PORT = process.env.PORT || 3000;
