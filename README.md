@@ -45,5 +45,5 @@ app.use('/v2', genRouter('epislon')); // alpha, beta, epsilon
 ------------------------- 
 ... calling middleware: alpha 
 ... calling middleware: beta 
-... calling middleware: epislon 
-```
+... calling middleware: epsilon 
+... calling endpoint: epsilon 
